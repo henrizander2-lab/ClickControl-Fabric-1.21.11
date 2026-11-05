@@ -1,0 +1,6 @@
+Prototype notes:
+- This is an uncompiled starter implementation.
+- The keybind menu currently uses an unbound key; assign it in Controls.
+- The blacklist UI supports adding/removing the currently held item.
+- The exact mixin hook and fields may need correction against 1.21.11 Yarn build.3.
+- This prototype is not yet verified to implement repeated use reliably; test only in singleplayer first.

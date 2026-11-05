@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.example.clickcontrol.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MinecraftClientMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

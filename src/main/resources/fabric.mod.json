@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "clickcontrol",
+  "version": "${version}",
+  "name": "ClickControl",
+  "description": "Hold-to-use speed control with an item blacklist.",
+  "authors": ["ChatGPT"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.example.clickcontrol.ClickControlClient"]
+  },
+  "mixins": ["clickcontrol.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
